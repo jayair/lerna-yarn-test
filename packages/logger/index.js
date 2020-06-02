@@ -1,5 +1,5 @@
 function main() {
-  return 'logger2';
+  return 'logger3';
 }
 
 module.exports = main
