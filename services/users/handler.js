@@ -1,5 +1,3 @@
-'use strict';
-
 const logger = require('logger');
 
 module.exports.main = (event, context, callback) => {
