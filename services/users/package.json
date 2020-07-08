@@ -5,8 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.712.0",
-    "logger": "^0.0.2",
-    "underscore": "^1.10.2"
+    "logger": "^0.0.2"
   },
   "devDependencies": {
     "serverless-bundle": "^1.9.0"
