@@ -1,9 +1,10 @@
-import logger from 'logger';
+const logger = require('logger');
 
-export async function main(event, context) {
-  return {
+module.exports.main = (event, context, callback) => {
+  const response = {
     statusCode: 200,
     body: `Hello user!! via ${logger()}`,
   };
-}
+  callback(null, response);
+};
 

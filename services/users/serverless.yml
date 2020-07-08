@@ -1,7 +1,7 @@
 service: learna-yarn-test-users
 
-plugins:
-  - serverless-bundle
+#plugins:
+#  - serverless-bundle
 
 provider:
   name: aws
