@@ -4,10 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "packages/*",
-    "services/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "services/*"
+    ],
+    "nohoist": [
+      "**/users/**"
+    ]
+  },
   "devDependencies": {
     "lerna": "^3.16.4"
   }
