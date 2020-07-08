@@ -1,5 +1,3 @@
-function main() {
+export default function logger() {
   return 'logger9';
 }
-
-module.exports = main;
