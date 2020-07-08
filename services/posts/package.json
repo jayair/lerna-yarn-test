@@ -2,5 +2,8 @@
   "name": "posts",
   "version": "0.0.1",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-bundle": "^1.9.0"
+  }
 }

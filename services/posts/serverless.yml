@@ -1,5 +1,8 @@
 service: learna-yarn-test-posts
 
+plugins:
+  - serverless-bundle
+
 provider:
   name: aws
   runtime: nodejs12.x
@@ -11,4 +14,3 @@ functions:
     handler: handler.main
     events:
       - http: GET /posts
-

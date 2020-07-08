@@ -1,7 +1,6 @@
-module.exports.main = (event, context, callback) => {
-  const response = {
+export function main(event, context) {
+  return {
     statusCode: 200,
     body: `Hello post!!`,
   };
-  callback(null, response);
-};
+}
